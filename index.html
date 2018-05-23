@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <html>
+
 <head>
-	<title>Jokenpô</title>
-	<meta charset="utf-8"/>
-	<script type="text/javascript" src="./js/bootstrap.js"></script>
-	<script type="text/javascript" src="./js/meujs.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <title>Jokenpô</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/meujs.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/meucss.css">
 </head>
+
 <body>
-<h1>teste</h1>
+   <br/>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Jokenpô!!!</h1>
+                <p>E hora de tentar a sorte, selecione sua arma e tente ganhar o computador.</p>
+
+                <center>
+                    <img id="pedra" value="pedra" src="img/pedra.png" onclick="Logica(this);" />
+                    <img id="papel" value="papel" src="img/papel.png" onclick="Logica(this);" />
+                    <img id="tesoura" value="tesoura" src="img/tesoura.png" onclick="Logica(this);" />
+                </center>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
